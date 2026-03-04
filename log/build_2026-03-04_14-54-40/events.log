@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (image_conversion_pkg) JobQueued: {'identifier': 'image_conversion_pkg', 'dependencies': OrderedDict()}
+[0.000648] (image_conversion_pkg) JobStarted: {'identifier': 'image_conversion_pkg'}
+[0.099713] (-) TimerEvent: {}
+[0.199999] (-) TimerEvent: {}
+[0.300344] (-) TimerEvent: {}
+[0.400717] (-) TimerEvent: {}
+[0.501068] (-) TimerEvent: {}
+[0.601390] (-) TimerEvent: {}
+[0.701765] (-) TimerEvent: {}
+[0.802079] (-) TimerEvent: {}
+[0.854416] (image_conversion_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_conversion_pkg', 'build', '--build-base', '/home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/build', 'install', '--record', '/home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ashutosh/Desktop/camera_ws/src/image_conversion_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:::setuptools.installer,ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install', 'CCACHE_TEMPDIR': '/tmp/ccache', 'LANGUAGE': 'en_IN:en', 'USER': 'ashutosh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ashutosh/.mujoco/mujoco210/bin', 'HOME': '/home/ashutosh', 'OLDPWD': '/home/ashutosh/Desktop/camera_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '2631', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ashutosh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ashutosh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ashutosh/.local/bin:/home/ashutosh/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ashu-ka-pc:@/tmp/.ICE-unix/2591,unix/ashu-ka-pc:/tmp/.ICE-unix/2591', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/92e2bdaf_2556_4078_a958_5d76cb856ffb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MUJOCO_PY_MUJOCO_PATH': '/home/ashutosh/.mujoco/mujoco210', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WJAQL3', 'LS_COLORS': '', 'GNOME_TERMINAL_SERVICE': ':1.144', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_EXPORT_COMPILE_COMMANDS': 'ON', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.902231] (-) TimerEvent: {}
+[1.002782] (-) TimerEvent: {}
+[1.103126] (-) TimerEvent: {}
+[1.150760] (image_conversion_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.151434] (image_conversion_pkg) StdoutLine: {'line': b'creating ../../build/image_conversion_pkg/image_conversion_pkg.egg-info\n'}
+[1.151939] (image_conversion_pkg) StdoutLine: {'line': b'writing ../../build/image_conversion_pkg/image_conversion_pkg.egg-info/PKG-INFO\n'}
+[1.152213] (image_conversion_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/image_conversion_pkg/image_conversion_pkg.egg-info/dependency_links.txt\n'}
+[1.152343] (image_conversion_pkg) StdoutLine: {'line': b'writing entry points to ../../build/image_conversion_pkg/image_conversion_pkg.egg-info/entry_points.txt\n'}
+[1.152509] (image_conversion_pkg) StdoutLine: {'line': b'writing requirements to ../../build/image_conversion_pkg/image_conversion_pkg.egg-info/requires.txt\n'}
+[1.152680] (image_conversion_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/image_conversion_pkg/image_conversion_pkg.egg-info/top_level.txt\n'}
+[1.152807] (image_conversion_pkg) StdoutLine: {'line': b"writing manifest file '../../build/image_conversion_pkg/image_conversion_pkg.egg-info/SOURCES.txt'\n"}
+[1.154316] (image_conversion_pkg) StdoutLine: {'line': b"reading manifest file '../../build/image_conversion_pkg/image_conversion_pkg.egg-info/SOURCES.txt'\n"}
+[1.154911] (image_conversion_pkg) StdoutLine: {'line': b"writing manifest file '../../build/image_conversion_pkg/image_conversion_pkg.egg-info/SOURCES.txt'\n"}
+[1.155051] (image_conversion_pkg) StdoutLine: {'line': b'running build\n'}
+[1.155109] (image_conversion_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.155203] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/build\n'}
+[1.155310] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/build/lib\n'}
+[1.155372] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/build/lib/image_conversion_pkg\n'}
+[1.155474] (image_conversion_pkg) StdoutLine: {'line': b'copying image_conversion_pkg/__init__.py -> /home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/build/lib/image_conversion_pkg\n'}
+[1.155531] (image_conversion_pkg) StdoutLine: {'line': b'running install\n'}
+[1.155748] (image_conversion_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.156570] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/lib/python3.10/site-packages/image_conversion_pkg\n'}
+[1.156681] (image_conversion_pkg) StdoutLine: {'line': b'copying /home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/build/lib/image_conversion_pkg/__init__.py -> /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/lib/python3.10/site-packages/image_conversion_pkg\n'}
+[1.157120] (image_conversion_pkg) StdoutLine: {'line': b'byte-compiling /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/lib/python3.10/site-packages/image_conversion_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.157286] (image_conversion_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.157366] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/share/ament_index\n'}
+[1.157441] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/share/ament_index/resource_index\n'}
+[1.157520] (image_conversion_pkg) StdoutLine: {'line': b'creating /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/share/ament_index/resource_index/packages\n'}
+[1.157590] (image_conversion_pkg) StdoutLine: {'line': b'copying resource/image_conversion_pkg -> /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/share/ament_index/resource_index/packages\n'}
+[1.157679] (image_conversion_pkg) StdoutLine: {'line': b'copying package.xml -> /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/share/image_conversion_pkg\n'}
+[1.157778] (image_conversion_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.159549] (image_conversion_pkg) StdoutLine: {'line': b'Copying ../../build/image_conversion_pkg/image_conversion_pkg.egg-info to /home/ashutosh/Desktop/camera_ws/install/image_conversion_pkg/lib/python3.10/site-packages/image_conversion_pkg-0.0.0-py3.10.egg-info\n'}
+[1.160337] (image_conversion_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.178478] (image_conversion_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ashutosh/Desktop/camera_ws/build/image_conversion_pkg/install.log'\n"}
+[1.203279] (-) TimerEvent: {}
+[1.208702] (image_conversion_pkg) CommandEnded: {'returncode': 0}
+[1.220985] (image_conversion_pkg) JobEnded: {'identifier': 'image_conversion_pkg', 'rc': 0}
+[1.221830] (-) EventReactorShutdown: {}
