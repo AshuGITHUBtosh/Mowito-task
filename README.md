@@ -176,8 +176,8 @@ Moving to room door
 Exiting room
 ```
 
-#Forward Kinematics of a Planar Robot Arm
-#Description
+# Forward Kinematics of a Planar Robot Arm
+# Description
 
 This program implements Forward Kinematics for a planar robotic arm.
 
@@ -190,7 +190,7 @@ Computes the final end-effector position
 Visualizes the robot arm using Matplotlib
 
 
-##How to Run
+## How to Run
 
 ``` cd camera_ws ```
 ``` python3 forward_kinematics_visualized.py ```
