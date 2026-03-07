@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ashutosh/bt_task/build",
+  "command": "/usr/bin/c++    -o CMakeFiles/bt.dir/main.cpp.o -c /home/ashutosh/bt_task/main.cpp",
+  "file": "/home/ashutosh/bt_task/main.cpp"
+}
+]

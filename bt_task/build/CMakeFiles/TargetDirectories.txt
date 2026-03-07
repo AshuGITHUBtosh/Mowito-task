@@ -1,0 +1,5 @@
+/home/ashutosh/bt_task/build/CMakeFiles/uninstall.dir
+/home/ashutosh/bt_task/build/CMakeFiles/bt_task_uninstall.dir
+/home/ashutosh/bt_task/build/CMakeFiles/bt.dir
+/home/ashutosh/bt_task/build/CMakeFiles/edit_cache.dir
+/home/ashutosh/bt_task/build/CMakeFiles/rebuild_cache.dir
