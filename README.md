@@ -192,8 +192,8 @@ Visualizes the robot arm using Matplotlib
 
 ## How to Run
 
-``` cd camera_ws ```
-``` python3 forward_kinematics_visualized.py ```
+- ``` cd camera_ws ```
+- ``` python3 forward_kinematics_visualized.py ```
 
 
    
