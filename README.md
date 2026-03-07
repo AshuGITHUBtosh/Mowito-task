@@ -195,6 +195,27 @@ Visualizes the robot arm using Matplotlib
 - ``` cd camera_ws ```
 - ``` python3 forward_kinematics_visualized.py ```
 
+# Euler to Quaternion Conversion
+# Description
+
+This task implements conversion between Euler angles and Quaternions.
+
+
+The program provides:
+
+Conversion from Euler angles → Quaternion
+
+Conversion from Quaternion → Euler angles
+
+Concepts Used
+
+How to Run
+
+
+
+- ``` cd camera_ws```
+- ``` python3 euler_quaternion_converter.py ```
+
 
    
  
