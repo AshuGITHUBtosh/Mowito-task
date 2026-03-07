@@ -1,4 +1,4 @@
-## Camera Toggle
+## ROS TASK
 This project implements a ROS2 package for image conversion using a live camera feed.
 The node subscribes to images from the usb_cam package, converts them to grayscale or color based on a service call, and publishes the converted images to a new ROS2 topic.
 
@@ -192,7 +192,6 @@ Visualizes the robot arm using Matplotlib
 
 ## How to Run
 
-- ``` cd camera_ws ```
 - ``` python3 forward_kinematics_visualized.py ```
 
 # Euler to Quaternion Conversion
@@ -211,9 +210,6 @@ Concepts Used
 
 How to Run
 
-
-
-- ``` cd camera_ws```
 - ``` python3 euler_quaternion_converter.py ```
 
 
